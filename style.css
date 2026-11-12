@@ -290,3 +290,16 @@ p {
 .tree-right {
     right: 8%;
 }
+.tree::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 85px;
+
+    background: #30283f;
+    border-radius: 50% 50% 45% 45%;
+
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
