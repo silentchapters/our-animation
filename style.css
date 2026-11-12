@@ -1,1 +1,17 @@
 
+
+body {
+    background-color: #111111;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: lavender;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
