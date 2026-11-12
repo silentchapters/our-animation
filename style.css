@@ -166,6 +166,7 @@ p {
     box-shadow: 0 3px 8px rgba(110, 75, 130, 0.12);
     animation: driftCloud 35s linear infinite;
     pointer-events: none;
+    z-index: 2;
 }
 
 .cloud::before,
@@ -188,4 +189,13 @@ p {
     height: 65px;
     top: -32px;
     right: 20px;
+}
+@keyframes driftCloud {
+    0% {
+        left: -180px;
+    }
+
+    100% {
+        left: 110%;
+    }
 }
