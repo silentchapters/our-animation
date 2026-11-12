@@ -82,7 +82,7 @@ p {
   background: white;
   border-radius: 50%;
   opacity: 0;
-  animation: twinkle 5s ease-in-out infinite alternate;
+  animation: twanimation: twinkle 3s ease-in-out infinite alternate;
 }
 
 @keyframes twinkle {
