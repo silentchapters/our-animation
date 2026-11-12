@@ -40,7 +40,7 @@ body {
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
-    animation: glow 3s ease-in-out infinite alternate;
+   animation: glow 5s ease-in-out infinite alternate;
 }
 
 h1 {
