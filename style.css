@@ -303,3 +303,17 @@ p {
     left: 50%;
     transform: translateX(-50%);
 }
+.tree::after {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 8px;
+
+    background: #30283f;
+
+    top: 15px;
+    left: -26px;
+
+    transform: rotate(-35deg);
+    border-radius: 10px;
+}
