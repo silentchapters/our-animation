@@ -158,20 +158,34 @@ p {
 .cloud {
     position: absolute;
     width: 140px;
-    height: 38px;
-    background: rgba(255, 220, 225, 0.18);
+    height: 35px;
+    background: #fffafc;
     border-radius: 50px;
-    filter: blur(8px);
-    opacity: 0.7;
+    opacity: 0.9;
+    filter: none;
+    box-shadow: 0 3px 8px rgba(110, 75, 130, 0.12);
     animation: driftCloud 35s linear infinite;
     pointer-events: none;
 }
 
-@keyframes driftCloud {
-    from {
-        left: -180px;
-    }
-    to {
-        left: 110%;
-    }
+.cloud::before,
+.cloud::after {
+    content: "";
+    position: absolute;
+    background: #fffafc;
+    border-radius: 50%;
+}
+
+.cloud::before {
+    width: 55px;
+    height: 55px;
+    top: -25px;
+    left: 22px;
+}
+
+.cloud::after {
+    width: 65px;
+    height: 65px;
+    top: -32px;
+    right: 20px;
 }
