@@ -272,3 +272,21 @@ p {
 
     z-index: 3;
 }
+.tree {
+    position: absolute;
+    bottom: 65px;
+    width: 12px;
+    height: 100px;
+
+    background: #30283f;
+
+    z-index: 4;
+}
+
+.tree-left {
+    left: 8%;
+}
+
+.tree-right {
+    right: 8%;
+}
