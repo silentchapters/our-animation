@@ -199,3 +199,21 @@ p {
         left: 110%;
     }
 }
+.cloud-one {
+    top: 22%;
+    animation-delay: 0s;
+}
+
+.cloud-two {
+    top: 42%;
+    animation-delay: 12s;
+    transform: scale(0.8);
+    opacity: 0.85;
+}
+
+.cloud-three {
+    top: 30%;
+    animation-delay: 22s;
+    transform: scale(1.2);
+    opacity: 0.95;
+}
