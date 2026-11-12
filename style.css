@@ -155,3 +155,21 @@ p {
     pointer-events: none;
     z-index: 0;
 }
+.sun-reflection {
+    position: absolute;
+    width: 260px;
+    height: 45px;
+
+    top: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: radial-gradient(
+        ellipse,
+        rgba(255, 205, 130, 0.45),
+        transparent 70%
+    );
+
+    filter: blur(12px);
+    pointer-events: none;
+}
