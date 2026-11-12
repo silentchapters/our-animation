@@ -173,3 +173,26 @@ p {
     filter: blur(12px);
     pointer-events: none;
 }
+.mountains {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+
+    background: #493b59;
+
+    clip-path: polygon(
+        0 65%,
+        15% 30%,
+        28% 60%,
+        45% 15%,
+        62% 65%,
+        78% 35%,
+        100% 70%,
+        100% 100%,
+        0 100%
+    );
+
+    z-index: 1;
+}
