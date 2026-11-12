@@ -342,9 +342,10 @@ p {
     z-index: 5;
 }
 
-.man::before {
-    content: "";
+.man-head {
     position: absolute;
+    bottom: 77px;
+    left: calc(50% - 56px);
 
     width: 30px;
     height: 30px;
@@ -352,6 +353,5 @@ p {
     background: #241e32;
     border-radius: 50%;
 
-    top: -28px;
-    left: 9px;
+    z-index: 6;
 }
