@@ -238,6 +238,7 @@ p {
     pointer-events: none;
 
     z-index: 1;
+    animation: hazeMovement 9s ease-in-out infinite alternate;
 }
 .foreground-trees {
     position: absolute;
@@ -366,5 +367,16 @@ p {
     to {
         opacity: 0.9;
         transform: translateX(-50%) scale(1.2);
+    }
+}
+@keyframes hazeMovement {
+    from {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-12px);
     }
 }
