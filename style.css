@@ -370,9 +370,10 @@ p {
         transform: translateX(-50%) scale(1.2);
     }
 }
+
 @keyframes hazeMovement {
     from {
-        opacity: 0.5;
+        opacity: 0.75;
         transform: translateY(0);
     }
 
