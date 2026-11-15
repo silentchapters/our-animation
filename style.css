@@ -172,6 +172,8 @@ p {
 
     filter: blur(12px);
     pointer-events: none;
+
+    animation: reflectionPulse 6s ease-in-out infinite alternate;
 }
 .mountains {
     position: absolute;
@@ -354,4 +356,15 @@ p {
     border-radius: 50%;
 
     z-index: 6;
+}
+@keyframes reflectionPulse {
+    from {
+        opacity: 0.4;
+        transform: translateX(-50%) scale(0.85);
+    }
+
+    to {
+        opacity: 0.9;
+        transform: translateX(-50%) scale(1.2);
+    }
 }
