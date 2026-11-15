@@ -297,37 +297,7 @@ p {
     right: 8%;
     animation: treeSway 2s ease-in-out infinite alternate-reverse;
 }
-.tree::before {
-    content: "";
-    position: absolute;
 
-    width: 0;
-    height: 0;
-
-    border-left: 38px solid transparent;
-    border-right: 38px solid transparent;
-    border-bottom: 75px solid #30283f;
-
-    top: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.tree::after {
-    content: "";
-    position: absolute;
-    top: -35px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    width: 0;
-    height: 0;
-
-    border-left: 48px solid transparent;
-    border-right: 48px solid transparent;
-    border-bottom: 65px solid #30283f;
-
-    filter: drop-shadow(0 0 1px #30283f);
-}
 .man {
     position: absolute;
     bottom: 0;
