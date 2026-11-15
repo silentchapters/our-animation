@@ -393,3 +393,12 @@ p {
         transform: translateX(8px);
     }
 }
+@keyframes treeSway {
+    from {
+        transform: rotate(-2deg);
+    }
+
+    to {
+        transform: rotate(2deg);
+    }
+}
