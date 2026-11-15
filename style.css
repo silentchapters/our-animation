@@ -220,6 +220,7 @@ p {
     );
 
     z-index: 1;
+    animation: distantMountainDrift 20s ease-in-out infinite alternate;
 }
 .mountain-haze {
     position: absolute;
@@ -380,5 +381,14 @@ p {
     to {
         opacity: 1;
         transform: translateY(-18px) scale(1.08);
+    }
+}
+@keyframes distantMountainDrift {
+    from {
+        transform: translateX(-8px);
+    }
+
+    to {
+        transform: translateX(8px);
     }
 }
