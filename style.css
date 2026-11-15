@@ -325,7 +325,7 @@ p {
 
 .man-head {
     position: absolute;
-    bottom: 77px;
+    bottom: calc(10% + 77px);
     left: calc(50% - 56px);
 
     width: 30px;
