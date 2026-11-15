@@ -421,11 +421,14 @@ p {
     border-left-width: 48px;
     border-right-width: 48px;
     border-bottom-width: 70px;
-    clip-path: polygon(
-        50% 0,
-        68% 18%,
-        100% 100%,
-        0 100%,
-        32% 18%
-    );
-}
+   clip-path: polygon(
+    50% 0,
+    65% 15%,
+    82% 25%,
+    72% 30%,
+    100% 100%,
+    0 100%,
+    28% 30%,
+    18% 25%,
+    35% 15%
+);
