@@ -380,60 +380,66 @@ p {
 .pine-layer {
     position: absolute;
     left: 50%;
-    width: 0;
-    height: 0;
     transform: translateX(-50%);
-
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-bottom: 55px solid #30283f;
+    background: #30283f;
 }
+
 .layer-top {
     top: -105px;
-    border-left-width: 22px;
-    border-right-width: 22px;
-    border-bottom-width: 52px;
+    width: 46px;
+    height: 55px;
+
     clip-path: polygon(
         50% 0,
-        68% 30%,
+        70% 25%,
+        60% 25%,
+        88% 62%,
+        72% 62%,
         100% 100%,
         0 100%,
-        32% 30%
+        28% 62%,
+        12% 62%,
+        40% 25%,
+        30% 25%
     );
 }
 
 .layer-middle {
     top: -55px;
-    border-left-width: 38px;
-    border-right-width: 38px;
-    border-bottom-width: 62px;
+    width: 82px;
+    height: 65px;
+
     clip-path: polygon(
         50% 0,
         65% 20%,
+        56% 20%,
+        82% 48%,
+        68% 48%,
         100% 100%,
         0 100%,
+        32% 48%,
+        18% 48%,
+        44% 20%,
         35% 20%
     );
 }
 
 .layer-bottom {
-    top: 0px;
-
-    width: 96px;
-    height: 70px;
-
-    border: none;
-    background: #30283f;
+    top: 0;
+    width: 104px;
+    height: 74px;
 
     clip-path: polygon(
         50% 0,
-        65% 15%,
-        82% 25%,
-        72% 30%,
+        65% 18%,
+        56% 18%,
+        82% 42%,
+        68% 42%,
         100% 100%,
         0 100%,
-        28% 30%,
-        18% 25%,
-        35% 15%
+        32% 42%,
+        18% 42%,
+        44% 18%,
+        35% 18%
     );
 }
