@@ -300,7 +300,7 @@ p {
 
 .man {
     position: absolute;
-    bottom: 0;
+    bottom: 10;
     left: calc(50% - 65px);
 
     width: 48px;
