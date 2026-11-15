@@ -377,6 +377,17 @@ p {
         transform: rotate(4deg);
     }
 }
+.pine-layer {
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform: translateX(-50%);
+
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 55px solid #30283f;
+}
 .layer-top {
     top: -105px;
     border-left-width: 22px;
