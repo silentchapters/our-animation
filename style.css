@@ -408,7 +408,7 @@ p {
     }
 }
 .layer-top {
-    top: -85px;
+    top: -105px;
     border-left-width: 22px;
     border-right-width: 22px;
     border-bottom-width: 52px;
@@ -422,7 +422,7 @@ p {
 }
 
 .layer-middle {
-    top: -48px;
+    top: -55px;
     border-left-width: 38px;
     border-right-width: 38px;
     border-bottom-width: 62px;
@@ -436,7 +436,7 @@ p {
 }
 
 .layer-bottom {
-    top: -10px;
+    top: 0px;
     border-left-width: 48px;
     border-right-width: 48px;
     border-bottom-width: 70px;
