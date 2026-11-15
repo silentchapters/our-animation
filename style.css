@@ -290,7 +290,7 @@ p {
 
 .tree-left {
     left: 8%;
-    animation: treeSway 3s ease-in-out infinite alternate;
+    animation: treeSway 1.5s ease-in-out infinite alternate;
 }
 
 .tree-right {
@@ -395,10 +395,10 @@ p {
 }
 @keyframes treeSway {
     from {
-        transform: rotate(-2deg);
+        transform: rotate(-4deg);
     }
 
     to {
-        transform: rotate(2deg);
+        transform: rotate(4deg);
     }
 }
