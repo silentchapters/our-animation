@@ -295,6 +295,7 @@ p {
 
 .tree-right {
     right: 8%;
+    animation: treeSway 2s ease-in-out infinite alternate-reverse;
 }
 .tree::before {
     content: "";
