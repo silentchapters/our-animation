@@ -300,13 +300,15 @@ p {
 .tree::before {
     content: "";
     position: absolute;
-    width: 75px;
-    height: 85px;
 
-    background: #30283f;
-    border-radius: 45% 55% 60% 40% / 55% 45% 55% 45%;
+    width: 0;
+    height: 0;
 
-    top: -65px;
+    border-left: 38px solid transparent;
+    border-right: 38px solid transparent;
+    border-bottom: 75px solid #30283f;
+
+    top: -70px;
     left: 50%;
     transform: translateX(-50%);
 }
