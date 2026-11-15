@@ -407,3 +407,35 @@ p {
         transform: rotate(4deg);
     }
 }
+.pine-layer {
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform: translateX(-50%);
+
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 55px solid #30283f;
+}
+
+.layer-top {
+    top: -65px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    border-bottom-width: 50px;
+}
+
+.layer-middle {
+    top: -42px;
+    border-left-width: 35px;
+    border-right-width: 35px;
+    border-bottom-width: 60px;
+}
+
+.layer-bottom {
+    top: -15px;
+    border-left-width: 45px;
+    border-right-width: 45px;
+    border-bottom-width: 65px;
+}
